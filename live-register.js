@@ -1,6 +1,5 @@
-// LiveRegister
-// ============
-//
+// LiveRegister v0.1
+// =================
 //
 // Copyright 2014 George Pantazis
 // Released under the MIT license
@@ -37,12 +36,9 @@
           }
         }
       }
-
     }, 1000);
 
   } else {
-
-    var target = document.documentElement;
 
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
@@ -60,7 +56,7 @@
       });
     });
 
-    observer.observe(target, {
+    observer.observe(document.documentElement, {
       subtree: true,
       childList: true
     });
