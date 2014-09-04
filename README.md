@@ -6,9 +6,9 @@ An automagic instantiator for JavaScript components.
 Why?
 ----
 
-[Web Components](http://www.w3.org/TR/components-intro/) are maybe/probably/definitely our Brave New Future. But, as I write this, the spec is [a long way from being implemented](http://jonrimmer.github.io/are-we-componentized-yet/). The [Polymer Project](http://www.polymer-project.org/) is doing a great job of polyfilling the spec, but they have very aggressive browser requirements that, unfortunately, [are constantly shifting](http://stackoverflow.com/questions/23096243/how-up-to-date-is-the-polymer-browser-compatibility-page).
+[Web Components](http://www.w3.org/TR/components-intro/) are maybe/probably/definitely our Brave New Future. But, as I write this, the spec is [a long way from being implemented](http://jonrimmer.github.io/are-we-componentized-yet/). The [Polymer Project](http://www.polymer-project.org/) is doing a great job of polyfilling it, but they have very aggressive browser requirements that, unfortunately, [are constantly shifting](http://stackoverflow.com/questions/23096243/how-up-to-date-is-the-polymer-browser-compatibility-page).
 
-All that said, I'm in love with the concept of automagical instantiation. I just want it today, with the browsers I actually have to support in the Real World.
+All that said, I'm in love with the concept of instant instantiation. I just want it today, with the browsers I actually have to support in the Real World. Or with libraries like [React](reactjs.com), that take a different tack altogether.
 
 Requirements
 ------------
