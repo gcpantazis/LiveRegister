@@ -8,7 +8,7 @@ Why?
 
 [Web Components](http://www.w3.org/TR/components-intro/) are maybe/probably/definitely our Brave New Future. But, as I write this, the spec is [a long way from being implemented](http://jonrimmer.github.io/are-we-componentized-yet/). The [Polymer Project](http://www.polymer-project.org/) is doing a great job of polyfilling it, but they have very aggressive browser requirements that, unfortunately, [are constantly shifting](http://stackoverflow.com/questions/23096243/how-up-to-date-is-the-polymer-browser-compatibility-page).
 
-All that said, I'm in love with the concept of instant instantiation. I just want it today, with the browsers I actually have to support in the Real World. Or with libraries like [React](reactjs.com), that take a different tack altogether.
+All that said, I'm in love with the concept of instant instantiation. I just want it today, with the browsers I actually have to support in the Real World. Or with libraries like [React](http://facebook.github.io/react/), that take a different tack altogether.
 
 Requirements
 ------------
@@ -23,14 +23,14 @@ Usage
 
       // Define a super-complex component:
 
-      var FooBarModule = function(elm) {
+      var FooBarComponent = function(elm) {
         elm.style.color = 'red'
       };
 
       // Watch for <foo-bar>s, instantiate them as they appear:
 
       LiveRegister('foo-bar', function(elm){
-        new FooBarModule(elm);
+        new FooBarComponent(elm);
       });
 
 Caveats
@@ -62,3 +62,6 @@ Todos
 -----
 
 * Testing
+* Demos
+* Gulp build
+* Publishing
