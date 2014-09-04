@@ -1,0 +1,29 @@
+{
+  "name": "LiveRegister",
+  "version": "0.1",
+  "homepage": "https://github.com/gcpantazis/LiveRegister",
+  "authors": [
+    "George Pantazis <gcpantazis@gmail.com>"
+  ],
+  "description": "An automagic instantiator for JavaScript components",
+  "main": "live-register.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "components",
+    "mutations",
+    "live",
+    "instantiation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
