@@ -59,6 +59,7 @@
         }
       });
     });
+
     observer.observe(target, {
       subtree: true,
       childList: true
